@@ -6,30 +6,32 @@
     <title>Project Corona</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Nav-Bar -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://ncov2019.live/">
           <img src="virus.png" />
-        </a>
+        </a> -->
 
         <a
           role="button"
           class="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
-          data-target="navbarBasicExample">
+          data-target="navbarBasicExample"
+        >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
+      <!-- <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item">
             Home
@@ -41,8 +43,8 @@
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
-              More
-            </a>
+              More -->
+      <!-- </a>
 
             <div class="navbar-dropdown">
               <a class="navbar-item">
@@ -54,13 +56,11 @@
               <hr class="navbar-divider" />
               <a class="navbar-item">
                 Report an issue
-              </a>
-            </div>
+              </a> -->
+      <!-- </div>
           </div>
         </div>
-
-        
-      </div>
+      </div> -->
     </nav>
 
     <!-- Hero Component-Banner -->
@@ -68,25 +68,47 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Coronavirus
-          </h1>
-          <h2 class="subtitle"> Wear Your Mask</h2>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+              <div class="navbar-brand">
+                <a class="navbar-item" href="https://ncov2019.live/">
+                  <img src="virus.png" />
+                </a>
+            </div>
+          <h1 >coronavirus</h1>
         </div>
-      </div>
+        </div>
+      
     </section>
-        <div class="buttons">
-          <a href = "https://www.cdc.gov/coronavirus/2019-ncov/faq.html"</a>"<button class="button is-info">Info</button>
 
-          <a href="https://medicalxpress.com/news/2020-06-hasnt-success-china-coronavirus.html"</a><button class="button is-success">Success</button>
+    <form>
+      <input
+        class="MyButton1"
+        type="button"
+        value="Info"
+        onclick="window.location.href='https://www.cdc.gov/coronavirus/2019-ncov/faq.html'"
+      />
+      <input
+        class="MyButton2"
+        type="button"
+        value="Success"
+        onclick="window.location.href='https://medicalxpress.com/news/2020-06-hasnt-success-china-coronavirus.html'"
+      />
 
-          <a href = "https://www.ftc.gov/coronavirus/scams-consumer-advice"</a><button class="button is-warning">Warning</button>
+      <input
+        class="MyButton3"
+        type="button"
+        value="Warning"
+        onclick="window.location.href='https://www.ftc.gov/coronavirus/scams-consumer-advice'"
+      />
 
-          <a href="https://www.adventhealth.com/blog/how-dangerous-coronavirus"</a><button class="button is-danger">Danger</button>
-        </div>
-      </div>
-
-     
-
+      <input
+        class="MyButton4"
+        type="button"
+        value="Danger"
+        onclick="window.location.href= href='https://www.adventhealth.com/blog/how-dangerous-coronavirus'"
+      />
+    </form>
+    <br />
     <!-- Tile Component -->
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
@@ -96,7 +118,6 @@
               <p class="title">Current Cases in the US</p>
               <p class="subtitle">Top tile</p>
             </article>
-
           </div>
           <div class="tile is-parent">
             <article class="tile is-child notification tile-gray">
@@ -151,7 +172,9 @@
       <div class="content has-text-centered">
         <p>
           <strong>Corona Project</strong> created by
-          <a href="https://jgthms.com">Eric Vista, Du'Ryan Ebbessen, Faranak Sabet & Naoaki Tanimura</a>
+          <a href="https://jgthms.com"
+            >Eric Vista, Du'Ryan Ebbessen, Faranak Sabet & Naoaki Tanimura</a
+          >
         </p>
       </div>
     </footer>
