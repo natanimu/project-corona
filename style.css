@@ -1,15 +1,15 @@
 .hero {
-  background-color: rgb(185, 209, 245);
+  background-color: rgb(243, 26, 11);
   text-align: center;
   color: white;
 }
 .tile-black {
-  background-color: #387af3;
+  background-color: gray;
   color: whitesmoke;
 }
 
 .tile-red {
-  background-color: #387af3;
+  background-color: gray;
   color: white;
 }
 
