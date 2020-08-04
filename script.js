@@ -1,4 +1,5 @@
-var settings = {
+$(document).ready(function(){
+    var settings = {
     "async": true,
     "crossDomain": true,
     "url": "https://covid-19-data.p.rapidapi.com/help/countries?format=json",
@@ -10,5 +11,14 @@ var settings = {
   }
   
   $.ajax(settings).done(function (response) {
-    console.log(response);
+    console.log(response); 
+
+
+$(".us").text(response.)
+
+
   });
+  });
+
+
+
