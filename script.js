@@ -1,8 +1,8 @@
-$(document).ready(function(){
-    var settings = {
+$(document).ready(function() {
+  var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://covid-19-data.p.rapidapi.com/help/countries?format=json",
+    "url": "https://covid-19-data.p.rapidapi.com/country?format=json&name=usa",
     "method": "GET",
     "headers": {
       "x-rapidapi-host": "covid-19-data.p.rapidapi.com",
@@ -11,14 +11,12 @@ $(document).ready(function(){
   }
   
   $.ajax(settings).done(function (response) {
-    console.log(response); 
+    console.log(response);
+    
+    // Get a reference to the container
+    $("#totalNumCases").text(response[0].confirmed);
 
-
-$(".us").text(response.)
-
+    // Set the content of that container to the target value from the response
 
   });
-  });
-
-
-
+});
