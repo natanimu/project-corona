@@ -1,5 +1,6 @@
 .hero {
-  background-color: rgb(243, 26, 11);
+  /* background-color: rgb(243, 26, 11); */
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_1280.jpg);
   text-align: center;
   color: white;
 }
@@ -26,7 +27,7 @@
 
 .tile-gray-light {
   background-color: #6d726d;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
 .buttons {
@@ -35,4 +36,16 @@
   margin-left: 20px;
   margin-right: 20px;
   color: white;
+}
+
+a:hover img {
+  transform: scale(2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+  margin-left: 20px;
+}
+body {
+  background-color: red;
 }
