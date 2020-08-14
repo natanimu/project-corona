@@ -1,5 +1,4 @@
 .hero {
-  /* background-color: rgb(243, 26, 11); */
   background-image: url(https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_1280.jpg);
   text-align: center;
   color: white;
@@ -7,6 +6,28 @@
 #map {
   height: 300px;
   width: 100%;
+}
+.us {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+#totalNumCases {
+  color: rgb(247, 8, 147);
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+}
+.global {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+#totalNumGlobCases {
+  color: rgb(245, 7, 185);
+  font-weight: 700;
+  font-size: 90px;
+  text-align: center;
 }
 .tile-black {
   background-color: gray;
