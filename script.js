@@ -1,3 +1,15 @@
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+  
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
+  
+     "+latlon+"&zoom=14&size=400x300&sensor=false&key=AIzaSyDTsbwP3MfYwHmlqiLhmT6rnp8D8Vbabtk";
+  
+  
+     document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+  
+   }
+
 
 $(document).ready(function() {
   var settings = {
@@ -22,6 +34,7 @@ $(document).ready(function() {
 
   });
 });
+
 
 $(document).ready(function() {
   var settings = {
